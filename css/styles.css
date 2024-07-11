@@ -1,7 +1,6 @@
 body {
     font-family: 'Press Start 2P', cursive;
-    background: url('images/background.png') no-repeat center center fixed;
-    background-size: cover;
+    background-color: #c54444;
     color: #fff;
     text-align: center;
     margin: 0;
@@ -9,6 +8,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    align-items: center;
     overflow: hidden;
 }
 
@@ -128,6 +128,10 @@ input {
     color: #fff;
 }
 
+.buttons {
+    margin-top: 20px;
+}
+
 button {
     padding: 10px;
     font-size: 1em;
@@ -137,6 +141,7 @@ button {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    margin: 5px;
 }
 
 button:hover {
@@ -211,4 +216,14 @@ p a:hover {
         font-size: 0.8em;
         padding: 6px;
     }
+}
+
+#score {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+canvas {
+    border: 2px solid #ffcc00;
+    background-color: #000;
 }
