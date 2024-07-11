@@ -10,6 +10,7 @@
 <body>
     <header>
         <h1>Croca Games</h1>
+        <button id="sairButton">Sair</button>
     </header>
     <main>
         <section class="games-list">
@@ -45,18 +46,6 @@
             <div class="game" id="breakout">
                 <img src="images/breakout.png" alt="Breakout">
                 <h3>Breakout</h3>
-            </div>   
-            <div class="game" id="breakout">
-                <img src="images/breakout.png" alt="Breakout">
-                <h3>Breakout</h3>
-            </div>    
-            <div class="game" id="breakout">
-                <img src="images/breakout.png" alt="Breakout">
-                <h3>Breakout</h3>
-            </div>    
-            <div class="game" id="breakout">
-                <img src="images/breakout.png" alt="Breakout">
-                <h3>Breakout</h3>
             </div>             
             <!-- Adicione mais jogos conforme necessário -->
         </section>
@@ -64,5 +53,10 @@
     <footer>
         <p>&copy; 2024 Croca Games</p>
     </footer>
+    <script>
+        document.getElementById('sairButton').addEventListener('click', () => {
+            window.location.href = 'login.html';
+        });
+    </script>
 </body>
 </html>
